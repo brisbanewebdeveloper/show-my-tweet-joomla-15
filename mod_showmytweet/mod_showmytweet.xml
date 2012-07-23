@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5" method="upgrade">
+	<name>Show My Tweet Module</name>
+	<author>Hiro Nozu</author>
+	<creationDate>14 June 2010</creationDate>
+	<copyright>2010 Hiro Nozu - All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>support@showmytweet.forjoomla.net</authorEmail>
+	<authorUrl>http://showmytweet.forjoomla.net/</authorUrl>
+	<version>0.0.0</version>
+	<description>Show My Tweet as module</description>
+	<files>
+		<filename>index.html</filename>
+		<filename>showmytweet.css.php</filename>
+		<filename module="mod_showmytweet">mod_showmytweet.php</filename>
+		<filename>tmpl/index.html</filename>
+		<filename>tmpl/default.php</filename>
+	</files>
+	<params>
+        <param name="username" size="50" type="text" default="" label="Username" description="Username for your Twitter account" />
+        <param name="password" size="50" type="password" default="" label="Password" description="Password for your Twitter account" />
+        <param name="max" size="4" type="text" default="" label="The Number of Tweet" description="" />
+        <param name="width" size="10" type="text" default="600" label="Width" description="Width of component" />
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+		<param name="cache" type="list" default="1" label="Caching" description="Select whether to cache the content of this module">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="cache_time" type="text" default="900" label="Cache Time" description="The time before the module is recached" />
+	</params>
+</install>

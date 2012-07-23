@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="component" version="1.5.0" method="upgrade">
+	<name>ShowMyTweet</name>
+	<author>Hiro Nozu</author>
+	<creationDate>12 June 2010</creationDate>
+	<copyright>2009 Hiro Nozu - All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>support@showmytweet.forjoomla.net</authorEmail>
+	<authorUrl>http://showmytweet.forjoomla.net/</authorUrl>
+	<version>0.0.0</version>
+	<description>Show My Tweet</description>
+	<files folder="site">
+		<file>controller.php</file>
+		<file>index.html</file>
+		<file>showmytweet.php</file>
+		<file>helper/index.html</file>
+		<file>helper/helper.php</file>
+		<file>helper/twitter.lib.php</file>
+		<file>assets/index.html</file>
+		<file>assets/css/index.html</file>
+		<file>assets/css/showmytweet.css.php</file>
+		<file>views/index.html</file>
+		<file>views/default/index.html</file>
+		<file>views/default/metadata.xml</file>
+		<file>views/default/view.html.php</file>
+		<file>views/default/tmpl/index.html</file>
+		<file>views/default/tmpl/default.php</file>
+		<file>views/default/tmpl/default.xml</file>
+	</files>
+	<administration>
+	</administration>
+	<installfile>install.php</installfile>
+</install>
